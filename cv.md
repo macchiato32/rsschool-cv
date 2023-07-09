@@ -12,7 +12,7 @@
 - Javascript, SQL, GraphQL, Nunjucks, Liquid, PHP (basics)
 - CSS, SCSS, BEM
 - Svelte/SvelteKit, Jamstack
-- CMS: Wordpress, NetlifyCMS, Shopify
+- CMS: Wordpress, Decap CMS (ex NetlifyCMS), Shopify, Strapi
 - Platforms w/edge solutions: Netlify, Cloudflare 
 ## Code sample
 ```Scala
