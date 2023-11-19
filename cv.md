@@ -13,7 +13,8 @@
 - CSS, SCSS, BEM
 - Svelte/SvelteKit, Jamstack
 - CMS: Wordpress, Decap CMS (ex NetlifyCMS), Shopify, Strapi
-- Platforms w/edge solutions: Netlify, Cloudflare 
+- Platforms w/edge solutions: Netlify, Cloudflare
+- Cloud infrastructures AWS, DigitalOcean
 ## Code sample
 ```Scala
   // this is a typical Scala solution to string reverse
