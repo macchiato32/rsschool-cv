@@ -16,11 +16,11 @@
 - Platforms w/edge solutions: Netlify, Cloudflare
 - Cloud infrastructures AWS, DigitalOcean
 ## Code sample
-```Scala
-  // this is a typical Scala solution to string reverse
-  def solution(word: String): String = {
-    (for(i <- word.length until 0 by -1) yield word(i-1)).mkString
-  }
+```JavaScript
+  const removeMessage = () => {
+    const message = document.querySelector(".message");
+    message.remove();
+  };
 ```
 ## Education
 - Applied Mathematics, [DonNU](https://www.donnu.edu.ua/)
