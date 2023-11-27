@@ -69,3 +69,7 @@ body {
 main section {
     margin-top: 2.4rem;
 }
+
+main section:last-child {
+    margin-bottom: 2.4rem;
+}
