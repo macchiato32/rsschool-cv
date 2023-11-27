@@ -61,3 +61,11 @@ body {
     font-size: 100%;
     align-items: center;
 }
+
+.container {
+    width: 65vw;
+}
+
+main section {
+    margin-top: 2.4rem;
+}
