@@ -1,4 +1,5 @@
-/* CSS Reset by Josh W Comeau */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
 *,
 *::before,
 *::after {
@@ -43,4 +44,20 @@ h6 {
 #root,
 #__next {
     isolation: isolate;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 100%;
+    align-items: center;
 }
