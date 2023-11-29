@@ -4,57 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Ihor`s CV">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <main class="container">
-
-        <h1>Ihor`s CV</h1>
-        <section class="contacts">
-            <h2>Contacts</h2>
-            <p><a href="https://github.com/macchiato32)">GitHub</a></p>
-            <p><a href="(https://discordapp.com/users/@macchiato7207)">Discord</a></p>
-        </section>
-        <section class="about">
-            <h2>About</h2>
-            <p class="content">My objective is to organize and structure web development knowledge, enhancing I hope
-                also not only my own proficiency but also that of my peers within the RollingScopes community which
-                looks like a collaborative environment where we can all learn, grow, and excel together. This shared
-                journey of knowledge and skill enhancement will not only benefit our projects but also contribute to our
-                personal career growth</p>
-        </section>
-        <section class="skills">
-            <h2>Skills & Tools</h2>
+    <div class="container">
+        <header>
+            <h1>Ihor`s CV</h1>
+            <img src="https://avatars.githubusercontent.com/u/138311719" alt="GitHub profile photo" class="cv-photo">
+        </header>
+        <main>
+            <nav class="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li><a href="https://github.com/macchiato32" class="contact-link">GitHub</a></li>
+                    <li><a href="https://discordapp.com/users/@macchiato7207" class="contact-link">Discord</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="about">
+                <h2>About</h2>
+                <p class="content">My objective is to organize and structure web development knowledge, enhancing I hope
+                    also not only my own proficiency but also that of my peers within the RollingScopes community which
+                    looks like a collaborative environment where we can all learn, grow, and excel together. This shared
+                    journey of knowledge and skill enhancement will not only benefit our projects but also contribute to
+                    our
+                    personal career growth</p>
+            </section>
+            <section class="skills">
+                <h2>Skills & Tools</h2>
+                <ul>
+                    <li>git</li>
+                    <li>RDBMS: MySQL, MSSQL, Oracle, Postgres</li>
+                    <li>Javascript, SQL, GraphQL, Nunjucks, Liquid, PHP (basics)</li>
+                    <li>CSS, SCSS, BEM</li>
+                    <li>Svelte/SvelteKit, Jamstack</li>
+                    <li>CMS: Wordpress, Decap CMS (ex NetlifyCMS), Shopify, Strapi</li>
+                    <li>Platforms w/edge solutions: Netlify, Cloudflare</li>
+                </ul>
+            </section>
+            <section class="code">
+                <h2>Code sample</h2>
+                <pre><code>
+    def solution(word: String): String = {
+        (for(i &lt;- word.length until 0 by -1) yield word(i-1)).mkString
+    }</code></pre>
+            </section>
+            <section class="projects">
+                <h2>Project</h2>
+                <a href="https://macchiato32.github.io/rsschool-cv/" class="contact-link">This simple CV</a>
+            </section>
+            <section class="education">
+                <h2>Education</h2>
+                <p>Applied Mathematics, <a href="https://www.donnu.edu.ua/" class="contact-link">DonNU</a></p>
+            </section>
+            <section class="languages">
+                <h2>English</h2>
+                <p><em>Upper Intermediate</em></p>
+            </section>
+        </main>
+        <footer>
             <ul>
-                <li>git</li>
-                <li>RDBMS: MySQL, MSSQL, Oracle, Postgres</li>
-                <li>Javascript, SQL, GraphQL, Nunjucks, Liquid, PHP (basics)</li>
-                <li>CSS, SCSS, BEM</li>
-                <li>Svelte/SvelteKit, Jamstack</li>
-                <li>CMS: Wordpress, Decap CMS (ex NetlifyCMS), Shopify, Strapi</li>
-                <li>Platforms w/edge solutions: Netlify, Cloudflare</li>
+                <li><a href="https://github.com/macchiato32" class="contact-link">
+                        <img src="img/logo-github.svg" alt="GitHub logo" class="logo">
+                        <span>GitHub</span>
+                    </a>
+                </li>
+                <li>made with 💕 @</li>
+                <li><a href="https://app.rs.school/" class="contact-link">
+                        <img src="img/logo-rs_school_js.svg" alt="RollingScopes School logo" class="logo">
+                    </a>
+                </li>
+                <li>11/2023</li>
             </ul>
-        </section>
-        <section class="code">
-            <h2>Code sample</h2>
-        <code><pre>
-        def solution(word: String): String = {
-            (for(i <- word.length until 0 by -1) yield word(i-1)).mkString
-        }
-            </pre>
-        </code>
-        </section>
-        <section class="education">
-            <h2>Education</h2>
-            Applied Mathematics, <a href="https://www.donnu.edu.ua/">DonNU</a>
-        </section>
-        <section class="languages">
-            <h2>English</h2>
-            <p><em>Upper Intermediate</em></p>
-        </section>
-    </main>
+        </footer>
+    </div>
 </body>
 
 </html>
